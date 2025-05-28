@@ -26,6 +26,7 @@ Memiliki peran sebagai pengguna sistem yang bertugas melakukan penyewaan, mengin
 
 
 ### 2. Use Case Diagram 
+![Usecase drawio](https://github.com/user-attachments/assets/31f79dba-7a2f-4fa8-a2c4-af8b6ed84c6c)
 
 
 ### 3. Entitas Utama 
@@ -124,4 +125,5 @@ Memiliki peran sebagai pengguna sistem yang bertugas melakukan penyewaan, mengin
 
 
 ### 7. Fakta Integritas 
+![image](https://github.com/user-attachments/assets/bb267377-a244-4034-9e8a-5d2b720f6be8)
 
