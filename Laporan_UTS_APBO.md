@@ -98,6 +98,25 @@ Memiliki peran sebagai pengguna sistem yang bertugas melakukan penyewaan, mengin
 
 
 ### 6. Mock Up 
+#### Halaman Utama
+![image](https://github.com/user-attachments/assets/e4f369fe-958e-48fc-8ea3-204901c31b24)
+
+#### Halaman Login
+![image](https://github.com/user-attachments/assets/ac910007-3469-438a-a86c-ed45ae5859ec)
+
+#### Halaman Keranjang
+![image](https://github.com/user-attachments/assets/10d3f428-c4a5-4390-9ffc-7ecb45f156b1)
+
+#### Halaman Payment Success
+![image](https://github.com/user-attachments/assets/ead8c496-a287-4474-a159-65a41e86effb)
+
+#### Halaman Item History
+![image](https://github.com/user-attachments/assets/ec20f20f-945d-4288-b7f5-fc75a6ad1492)
+
+
+
+
+
 
 
 ### 7. Fakta Integritas 
