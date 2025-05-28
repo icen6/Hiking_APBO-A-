@@ -24,3 +24,81 @@ Memiliki peran sebagai administrator sistem yang bertugas mengatur menu, mempros
 • Penyewa
 Memiliki peran sebagai pengguna sistem yang bertugas melakukan penyewaan, menginput data pribadi, menentukan metode pembayaran, serta mendapatkan notifikasi terkait penyewaan.
 
+
+### 2. Use Case Diagram 
+
+
+### 3. Entitas Utama 
+
+#### A. Customer  
+
+| Nama Atribut   | Tipe Data    | Keterangan                     |
+| -------------- | ------------ | ------------------------------ |
+| ID_Customer    | VARCHAR(10)  | Primary key, ID unik customer  |
+| nama_customer  | VARCHAR(30)  | Nama lengkap customer          |
+| alamat         | VARCHAR(50)  | Alamat tempat tinggal customer |
+| no_telp        | VARCHAR(15)  | Nomor telepon customer         |
+
+
+#### B. Penyewaan 
+
+| Nama Atribut         | Tipe Data   | Keterangan                     |
+| -------------------- | ----------- | ------------------------------ |
+| ID_Penyewaan         | VARCHAR(10) | Primary key, ID unik penyewaan |
+| ID_Customer          | VARCHAR(10) | Foreign key dari Customer      |
+| tanggal_sewa         | DATE        | Tanggal awal penyewaan         |
+| tanggal_pengembalian | DATE        | Tanggal pengembalian barang    |
+
+
+#### C. Barang 
+
+| Nama Atribut        | Tipe Data     | Keterangan                         |
+| --------------------| ------------- | ---------------------------------- |
+| ID_Barang           | VARCHAR(10)   | Primary key, ID unik barang        |
+| nama_barang         | VARCHAR(100)  | Nama barang                        |
+| stok_barang         | INT           | Jumlah stok tersedia               |
+| harga_sewa_barang   | DECIMAL(10,2) | Harga sewa per unit barang         |
+| jumlah_barang       | INT           | Jumlah barang yang disewa          |
+| ID_Kategori_Barang  | VARCHAR(10)   | Foreign key dari Kategori_Barang   |
+
+
+#### D. Kategori Barang 
+
+| Nama Atribut        | Tipe Data   | Keterangan                            |
+| --------------------| ----------- | ------------------------------------- |
+| ID_Kategori_Barang  | VARCHAR(10) | Primary key, ID unik kategori barang  |
+| jenis_kategori      | VARCHAR(50) | Jenis atau nama kategori              |
+| kapasitas_barang    | VARCHAR(50) | Kapasitas barang                      |
+
+
+#### E. Status Barang 
+
+| Nama Atribut   | Tipe Data    | Keterangan                                 |
+| -------------- | -------------| ------------------------------------------ |
+| Status_Barang  | VARCHAR(50)  | Primary key, Status barang                 |
+| ID_Customer    | VARCHAR(10)  | Foreign key dari Customer                  |
+| ID_Penyewaan   | VARCHAR(10)  | Foreign key dari Penyewaan                 |
+
+
+#### F. Bayar 
+
+| Nama Atribut  | Tipe Data     | Keterangan                               |
+| ------------- | ------------- | ---------------------------------------- |
+| ID_Bayar      | VARCHAR(10)   | Primary key, ID unik pembayaran          |
+| metode_bayar  | VARCHAR(50)   | Metode pembayaran (tunai, transfer, dll) |
+| total_bayar   | DECIMAL(10,2) | Total jumlah yang dibayarkan             |
+| ID_Customer   | VARCHAR(10)   | Foreign key dari Customer                |
+| Status_Barang | VARCHAR(50)   | Foreign key dari Status_Barang           |
+
+
+### 4. ERD 
+
+
+### 5. Class Diagram 
+
+
+### 6. Mock Up 
+
+
+### 7. Fakta Integritas 
+
