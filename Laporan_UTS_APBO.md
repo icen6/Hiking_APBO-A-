@@ -97,6 +97,7 @@ Memiliki peran sebagai pengguna sistem yang bertugas melakukan penyewaan, mengin
 
 
 ### 5. Class Diagram 
+![image](https://github.com/user-attachments/assets/442d80eb-4250-4325-9799-aad0612dfd1a)
 
 
 ### 6. Mock Up 
