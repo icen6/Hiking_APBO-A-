@@ -26,6 +26,7 @@ Memiliki peran sebagai pengguna sistem yang bertugas melakukan penyewaan, mengin
 
 
 ### 2. Use Case Diagram 
+![Usecase drawio](https://github.com/user-attachments/assets/032b867d-e621-478d-ba02-cca8d94fcb9c)
 
 
 ### 3. Entitas Utama 
