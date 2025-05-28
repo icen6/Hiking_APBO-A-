@@ -125,4 +125,5 @@ Memiliki peran sebagai pengguna sistem yang bertugas melakukan penyewaan, mengin
 
 
 ### 7. Fakta Integritas 
+![image](https://github.com/user-attachments/assets/a6eeb6f3-ae4f-45b1-92a5-79724c3afe28)
 
