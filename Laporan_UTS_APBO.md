@@ -92,6 +92,8 @@ Memiliki peran sebagai pengguna sistem yang bertugas melakukan penyewaan, mengin
 
 
 ### 4. ERD 
+![image](https://github.com/user-attachments/assets/c00eedca-9ed3-4a37-95ea-cef1be82de96)
+
 
 
 ### 5. Class Diagram 
