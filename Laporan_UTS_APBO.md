@@ -25,29 +25,30 @@ Memiliki peran sebagai administrator sistem yang bertugas mengatur menu, mempros
 Memiliki peran sebagai pengguna sistem yang bertugas melakukan penyewaan, menginput data pribadi, menentukan metode pembayaran, serta mendapatkan notifikasi terkait penyewaan.
 
 
-### 2. Use Case Diagram 
-![Usecase drawio](https://github.com/user-attachments/assets/31f79dba-7a2f-4fa8-a2c4-af8b6ed84c6c)
+### 2. Use Case Diagram
+![ERD-Page-2 drawio](https://github.com/user-attachments/assets/87452242-f228-4d99-8a0a-90faa339eab6)
+ 
 
 
 ### 3. Entitas Utama 
 
-#### A. Customer  
+#### A. Penyewa  
 
 | Nama Atribut   | Tipe Data    | Keterangan                     |
 | -------------- | ------------ | ------------------------------ |
-| ID_Customer    | VARCHAR(10)  | Primary key, ID unik customer  |
-| nama_customer  | VARCHAR(30)  | Nama lengkap customer          |
-| alamat         | VARCHAR(50)  | Alamat tempat tinggal customer |
-| no_telp        | VARCHAR(15)  | Nomor telepon customer         |
+| ID_Penyewa     | VARCHAR(10)  | Primary key, ID unik penyewa   |
+| nama_penyewa   | VARCHAR(30)  | Nama lengkap penyewa           |
+| alamat         | VARCHAR(50)  | Alamat tempat tinggal penyewa  |
+| no_telp        | VARCHAR(15)  | Nomor telepon penyewa          |
 
 
-#### B. Penyewaan 
+#### B. sewa_barang 
 
 | Nama Atribut         | Tipe Data   | Keterangan                     |
 | -------------------- | ----------- | ------------------------------ |
-| ID_Penyewaan         | VARCHAR(10) | Primary key, ID unik penyewaan |
-| ID_Customer          | VARCHAR(10) | Foreign key dari Customer      |
-| tanggal_sewa         | DATE        | Tanggal awal penyewaan         |
+| ID_sewabarang        | VARCHAR(10) | Primary key, ID unik sewabarang|
+| ID_Penyewa           | VARCHAR(10) | Foreign key dari penyewa       |
+| tanggal_sewa         | DATE        | Tanggal awal sewa barang       |
 | tanggal_pengembalian | DATE        | Tanggal pengembalian barang    |
 
 
@@ -77,23 +78,24 @@ Memiliki peran sebagai pengguna sistem yang bertugas melakukan penyewaan, mengin
 | Nama Atribut   | Tipe Data    | Keterangan                                 |
 | -------------- | -------------| ------------------------------------------ |
 | Status_Barang  | VARCHAR(50)  | Primary key, Status barang                 |
-| ID_Customer    | VARCHAR(10)  | Foreign key dari Customer                  |
-| ID_Penyewaan   | VARCHAR(10)  | Foreign key dari Penyewaan                 |
+| ID_Penyewa     | VARCHAR(10)  | Foreign key dari Penyewa                   |
+| ID_sewabarang  | VARCHAR(10)  | Foreign key dari sewa_barang               |
 
 
-#### F. Bayar 
+#### F. Transaksi 
 
-| Nama Atribut  | Tipe Data     | Keterangan                               |
-| ------------- | ------------- | ---------------------------------------- |
-| ID_Bayar      | VARCHAR(10)   | Primary key, ID unik pembayaran          |
-| metode_bayar  | VARCHAR(50)   | Metode pembayaran (tunai, transfer, dll) |
-| total_bayar   | DECIMAL(10,2) | Total jumlah yang dibayarkan             |
-| ID_Customer   | VARCHAR(10)   | Foreign key dari Customer                |
-| Status_Barang | VARCHAR(50)   | Foreign key dari Status_Barang           |
+| Nama Atribut    | Tipe Data     | Keterangan                               |
+| -------------   | ------------- | ---------------------------------------- |
+| ID_Transaksi    | VARCHAR(10)   | Primary key, ID unik transaksi           |
+| metode_transaksi| VARCHAR(50)   | Metode transaksi (tunai, transfer, dll)  |
+| total_transaksi | DECIMAL(10,2) | Total jumlah yang dibayarkan             |
+| ID_Penyewa      | VARCHAR(10)   | Foreign key dari Penyewa                 |
+| Status_Barang   | VARCHAR(50)   | Foreign key dari Status_Barang           |
 
 
 ### 4. ERD 
-![image](https://github.com/user-attachments/assets/cdafc97a-01c1-4c31-b05d-394ada849867)
+![ERD-Page-1 drawio](https://github.com/user-attachments/assets/98f56cd8-ad8c-4196-a586-78e533eb9f85)
+
 
 
 ### 5. Class Diagram 
