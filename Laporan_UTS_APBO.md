@@ -18,7 +18,7 @@ Adi Wahyu Pribadi, S.Si., M.Kom
 
 ### 1. Aktor/Role Yang Terlibat
 
-• Pemilik
+• Admin
 Memiliki peran sebagai administrator sistem yang bertugas mengatur menu, memproses penyewaan yang diterima, mengelola informasi penyewaan, serta menangani proses pembayaran.
 
 • Penyewa
@@ -111,13 +111,13 @@ Memiliki peran sebagai pengguna sistem yang bertugas melakukan penyewaan, mengin
 ![image](https://github.com/user-attachments/assets/46a5f4fb-a8b6-4040-b2ec-87f514cb49c1)
 
 ##### Halaman Transaksi
-![image](https://github.com/user-attachments/assets/64900ce6-ac1c-411b-81b3-5685e29860c0)
+![image](https://github.com/user-attachments/assets/b4a2e933-04f2-4342-9569-296471753d9b)
 
 ##### Halaman History Sewa Barang
 ![image](https://github.com/user-attachments/assets/7e7e2afd-1b28-48c7-b1fa-6728f2c69be0)
 
 #### Admin
-##### Halaman Login
+##### Halaman Login Admin
 ![image](https://github.com/user-attachments/assets/c76f4e46-8cb2-4ff1-ada0-99a2001c9764)
 
 ##### Halaman Kelola Data Penyewa
