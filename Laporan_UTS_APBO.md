@@ -97,9 +97,9 @@ Memiliki peran sebagai pengguna sistem yang bertugas melakukan penyewaan, mengin
 ![ERD-Page-1 drawio](https://github.com/user-attachments/assets/98f56cd8-ad8c-4196-a586-78e533eb9f85)
 
 
-
 ### 5. Class Diagram 
-![image](https://github.com/user-attachments/assets/442d80eb-4250-4325-9799-aad0612dfd1a)
+![image](https://github.com/user-attachments/assets/ff4a80ac-1120-482f-b3d7-be2fe3b60252)
+
 
 ### 6. Sequence Diagram
 #### Penyewa
